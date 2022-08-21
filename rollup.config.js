@@ -60,7 +60,8 @@ function serve() {
   }
 }
 
-export default {
+/** @type {import('rollup').RollupOptions} */
+const options = {
   input: 'src/main.ts',
   output: {
     sourcemap: !isProduction,
@@ -148,3 +149,5 @@ export default {
     clearScreen: false,
   },
 }
+
+export default options
