@@ -7,7 +7,7 @@
     <div class="container__left">
       <div class="brand">
         <div class="brand__logo center">
-          <img style="width: 100%;" src="/assets/logo.png" alt="brand">
+          <img style="width: 100%;" src="./assets/logo.png" alt="brand">
         </div>
         <div class="brand__name">Веселый носок</div>
       </div>

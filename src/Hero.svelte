@@ -12,17 +12,17 @@
         <div style="margin-bottom: 2vh;">Если вам давно за 18-ть и вы отчаялись искать себе уютное местечко на просторах Discord'а, где нет докучливой шпаны с их мелкими проблемками, идиотским поведением и дурацким молодежным сленгом, то это место именно для вас. Здесь вы найдете взрослое общение на любой вкус, подурачитесь вволю и блеснете своими сакральными знаниями, приобретенными с годами. Здесь вы сможете поиграть в картишки или любые другие настольные игры, как когда-то играли в кругу друзей, пока их не затянуло в водоворот взрослой жизни. В «Веселом носке» мы встретим вас с распростертыми объятьями, глупыми, но милыми шутками, и всячески разбавим скучные серые деньки. Добро пожаловать в «Веселый носок»!</div>
         <div class="center">
           <div class="join">
-            <img class="join__image image_button" src="/assets/join.png" alt="присоединиться">
+            <img class="join__image image_button" src="./assets/join.png" alt="присоединиться">
           </div>
         </div>
       </div>
       <div class="info_container__item--empty" />
       <div class="info_container__item--logo center">
-        <img class="logo-img" src="/assets/hero-logo.png" alt="лого">
+        <img class="logo-img" src="./assets/hero-logo.png" alt="лого">
       </div>
     </div>
     <div class="container__item--down_arrow down_arrow_container" on:click={() => void console.log("join down")}>
-      <!-- <img class="image_button" src="/assets/down-arrow.png" alt="down_arrow" /> -->
+      <!-- <img class="image_button" src="./assets/down-arrow.png" alt="down_arrow" /> -->
     </div>
   </div>
 </header>
