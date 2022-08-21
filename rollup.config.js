@@ -8,6 +8,7 @@ import sveltePreprocess from 'svelte-preprocess'
 import hmr from 'rollup-plugin-hot'
 import typescript from '@rollup/plugin-typescript'
 import css from 'rollup-plugin-css-only'
+import cleaner from 'rollup-plugin-cleaner'
 
 // Set this to true to pass the --single flag to sirv (this serves your
 // index.html for any unmatched route, which is a requirement for SPA
@@ -68,6 +69,11 @@ export default {
     file: 'public/build/bundle.js'
   },
   plugins: [
+    isProduction && cleaner ({
+      targets: [
+        'public/build'
+      ]
+    }),
     svelte({
       preprocess: sveltePreprocess({ sourceMap: !isProduction }),
       compilerOptions: {
