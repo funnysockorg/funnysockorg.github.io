@@ -1,5 +1,5 @@
 <script lang="ts">
-
+  import { inviteUrl } from "./common"
 </script>
 
 <nav class="center">
@@ -15,14 +15,14 @@
     <div class="container__right">
       <div class="right_container">
         <div class="right_container__item">
-          У нас есть...
+          <!-- У нас есть... -->
         </div>
         <div class="right_container__item">
-          Отзывы
+          <!-- Отзывы -->
         </div>
         <div class="right_container__end">
           <div class="join">
-            Присоединиться
+            <a href={inviteUrl}>Присоединиться</a>
           </div>
         </div>
       </div>
