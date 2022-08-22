@@ -29,7 +29,9 @@
   </div>
 </header>
 
-<style>
+<style lang="scss">
+  @import './styles.scss';
+
   header {
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -39,45 +41,46 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-  }
-  .container__item--empty {
-    height: 100%;
-    flex-grow: 1;
-  }
-  .container__item--content {
-    height: 100%;
-    flex-grow: 1;
-  }
-  .container__item--down_arrow {
-    height: 100%;
-    flex-grow: 1;
+
+    .container__item--empty {
+      height: 100%;
+      flex-grow: 1;
+    }
+    .container__item--content {
+      height: 100%;
+      flex-grow: 1;
+    }
+    .container__item--down_arrow {
+      height: 100%;
+      flex-grow: 1;
+    }
   }
 
   .down_arrow_container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    @include center();
   }
 
   .info_container {
     display: flex;
-  }
-  .info_container__item--content {
-    flex-basis: 500px;
-  }
-  .info_container__item--empty {
-    width: 110px;
-  }
-  .info_container__item--logo {
-    flex-basis: 425px;
-  }
+    $width-break: 800px;
+    $height-break: 580px;
 
-  @media (max-width: 800px), (max-height:580px) {
+    .info_container__item--content {
+      flex-basis: 500px;
+    }
     .info_container__item--empty {
-      display: none;
+      width: 110px;
+
+      @media (max-width: $width-break), (max-height: $height-break) {
+        display: none;
+      }
     }
     .info_container__item--logo {
-      display: none;
+      flex-basis: 425px;
+
+      @media (max-width: $width-break), (max-height: $height-break) {
+        display: none;
+      }
     }
   }
 
@@ -87,9 +90,8 @@
 
   .join {
     width: 30vh;
-  }
-
-  .join__image {
-    width: 100%;
+    .join__image {
+      width: 100%;
+    }
   }
 </style>

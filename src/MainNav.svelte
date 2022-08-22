@@ -30,7 +30,9 @@
   </div>
 </nav>
 
-<style>
+<style lang="scss">
+  @import './styles.scss';
+
   nav {
     position: fixed;
     top: 0;
@@ -44,26 +46,27 @@
     background-color: rgb(255, 255, 255);
     width: 98%;
     border-radius: 50px;
-  }
-  .container__left {
-    flex-grow: 10;
-  }
-  .container__right {
-    flex-grow: 1;
-    margin-right: 5px;
+
+    .container__left {
+      flex-grow: 10;
+    }
+    .container__right {
+      flex-grow: 1;
+      margin-right: 5px;
+    }
   }
 
   .brand {
     display: flex;
     align-items: center;
-  }
-  .brand__name {
-    font-size: large;
-  }
 
-  .brand__logo {
-    width: 40px;
-    margin-right: 10px;
+    .brand__name {
+      font-size: large;
+    }
+    .brand__logo {
+      width: 40px;
+      margin-right: 10px;
+    }
   }
 
   .right_container {
@@ -71,16 +74,13 @@
     justify-content: space-between;
 
     height: 100%;
-  }
-  .right_container__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .right_container__end {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .right_container__item {
+      @include center();
+    }
+    .right_container__end {
+      @include center();
+    }
   }
 
   .join {
