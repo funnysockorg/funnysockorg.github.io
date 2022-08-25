@@ -22,7 +22,9 @@
         </div>
         <div class="right_container__end">
           <div class="join">
-            <a href={inviteUrl}>Присоединиться</a>
+            <a href={inviteUrl}>
+              <img class="join__image image_button" src="./assets/nav-button-join.png" alt="присоединиться">
+            </a>
           </div>
         </div>
       </div>
@@ -49,10 +51,15 @@
 
     .container__left {
       flex-grow: 10;
+
+      display: flex;
+      align-items: center;
     }
     .container__right {
       flex-grow: 1;
-      margin-right: 5px;
+
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -74,22 +81,19 @@
     justify-content: space-between;
 
     height: 100%;
+    width: 100%;
 
     .right_container__item {
       @include center();
     }
     .right_container__end {
       @include center();
+
+
     }
   }
 
   .join {
-    background-color: rgb(192, 196, 218);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    border-radius: 30px;
+    height: 38px;
   }
 </style>
