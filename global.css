@@ -69,7 +69,7 @@ button:focus {
 }
 
 .image_button {
-  width: 200px;
+  height: 100%;
 }
 
 .image_button:hover{
