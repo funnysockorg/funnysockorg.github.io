@@ -67,6 +67,11 @@
 
     .info_container__item--content {
       flex-basis: 500px;
+      padding-left: 10px;
+
+      @media (max-width: $width-break), (max-height: $height-break) {
+        padding-right: 10px;
+      }
     }
     .info_container__item--empty {
       width: 110px;
@@ -77,6 +82,7 @@
     }
     .info_container__item--logo {
       flex-basis: 425px;
+      padding-right: 10px;
 
       @media (max-width: $width-break), (max-height: $height-break) {
         display: none;
