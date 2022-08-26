@@ -9,6 +9,8 @@ import hmr from 'rollup-plugin-hot'
 import typescript from '@rollup/plugin-typescript'
 import css from 'rollup-plugin-css-only'
 import cleaner from 'rollup-plugin-cleaner'
+import html from '@rollup/plugin-html'
+import { makeHtmlAttributes } from '@rollup/plugin-html'
 
 // Set this to true to pass the --single flag to sirv (this serves your
 // index.html for any unmatched route, which is a requirement for SPA
@@ -60,6 +62,74 @@ function serve() {
   }
 }
 
+/**
+ * https://github.com/thgh/rollup-plugin-css-only/issues/25#issuecomment-821201007
+ * @param {css.Options?} options
+ */
+function hashFixCSS(options) {
+  const plugin = css(options)
+  const original_generateBundle = plugin.generateBundle
+  const name = /** @type string */ (options.output)
+  /** @type string */
+  let source
+  options.output = s => (source = s)
+  plugin.generateBundle = function (opts, bundle) {
+    original_generateBundle.call(this, opts, bundle)
+    this.emitAsset(name, source)
+  }
+  return plugin
+}
+
+/**
+ * @param {import('@rollup/plugin-html').RollupHtmlTemplateOptions} templateoptions
+ */
+const defaultTemplate = (templateoptions) => {
+  const { attributes, files, meta, publicPath, title } = templateoptions
+
+  const scripts = (files.js || [])
+    .map(({ fileName }) => {
+      const attrs = makeHtmlAttributes(attributes.script);
+      return `<script defer src="${publicPath}${fileName}"${attrs}></script>`;
+    })
+    .join('\n')
+
+  const links = (files.css || [])
+    .map(({ fileName }) => {
+        const attrs = makeHtmlAttributes(attributes.link);
+        return `<link href="${publicPath}${fileName}" rel="stylesheet"${attrs}>`;
+    })
+    .join('\n')
+
+  const metas = meta
+    .map((input) => {
+      const attrs = makeHtmlAttributes(input);
+      return `<meta${attrs}>`;
+    })
+    .join('\n')
+
+  const template = [
+    `<!DOCTYPE html>`,
+    `<html${makeHtmlAttributes(attributes.html)}>`,
+    `<head>`,
+    `  ${metas}`,
+    `  <title>${title}</title>`,
+    `  <link rel='icon' type='image/png' href='./favicon.png'>`,
+    `  ${links}`,
+    isHot ?
+      `  <script defer src="./${buildDir}/bundle.js"></script>`:
+      `  ${scripts}`,
+    `</head>`,
+    `<body>`,
+    `</body>`,
+    `</html>`
+  ].join('\n')
+
+  return template
+}
+
+const outputDir = 'public/build'
+const buildDir = 'build'
+
 /** @type {import('rollup').RollupOptions} */
 const options = {
   input: 'src/main.ts',
@@ -67,12 +137,14 @@ const options = {
     sourcemap: !isProduction,
     format: 'iife',
     name: 'app',
-    file: 'public/build/bundle.js'
+    entryFileNames: isProduction ? `${buildDir}/bundle.[hash].js` : `${buildDir}/bundle.js`,
+    assetFileNames: isProduction ? `${buildDir}/[name].[hash][extname]` : `${buildDir}/[name][extname]`,
+    dir: './public'
   },
   plugins: [
     isProduction && cleaner ({
       targets: [
-        'public/build'
+        outputDir
       ]
     }),
     svelte({
@@ -99,7 +171,19 @@ const options = {
     // a separate file - better for performance
     // NOTE when hot option is enabled, a blank file will be written to
     // avoid CSS rules conflicting with HMR injected ones
-    css({ output: isNollup ? 'build/bundle.css' : 'bundle.css' }),
+    hashFixCSS({ output: 'bundle.css' }),
+
+    html({
+      fileName: 'index.html',
+      publicPath: './',
+      title: 'Веселый носок',
+
+      attributes: {
+        html: { lang: 'ru' },
+      },
+
+      template: defaultTemplate
+    }),
 
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In
