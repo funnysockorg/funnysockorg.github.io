@@ -64,7 +64,7 @@ function serve() {
 
 /**
  * https://github.com/thgh/rollup-plugin-css-only/issues/25#issuecomment-821201007
- * @param {css.Options?} options
+ * @param {css.Options} options
  */
 function hashFixCSS(options) {
   const plugin = css(options)
@@ -74,16 +74,21 @@ function hashFixCSS(options) {
   let source
   options.output = s => (source = s)
   plugin.generateBundle = function (opts, bundle) {
-    original_generateBundle.call(this, opts, bundle)
+    if (original_generateBundle) {
+      original_generateBundle.call(this, opts, bundle)
+    }
     this.emitAsset(name, source)
   }
   return plugin
 }
 
 /**
- * @param {import('@rollup/plugin-html').RollupHtmlTemplateOptions} templateoptions
+ * @param {import('@rollup/plugin-html').RollupHtmlTemplateOptions | undefined} templateoptions
  */
 const defaultTemplate = (templateoptions) => {
+  if (!templateoptions) {
+    throw Error("templateoptions is null")
+  }
   const { attributes, files, meta, publicPath, title } = templateoptions
 
   const scripts = (files.js || [])
@@ -105,7 +110,7 @@ const defaultTemplate = (templateoptions) => {
       const attrs = makeHtmlAttributes(input);
       return `<meta${attrs}>`;
     })
-    .join('\n')
+    .join('\n  ')
 
   const template = [
     `<!DOCTYPE html>`,
@@ -181,6 +186,16 @@ const options = {
       attributes: {
         html: { lang: 'ru' },
       },
+
+      meta: [
+        {
+          charset: "utf-8"
+        },
+        {
+          name: "viewport",
+          content: "width=device-width,initial-scale=1"
+        }
+      ],
 
       template: defaultTemplate
     }),
