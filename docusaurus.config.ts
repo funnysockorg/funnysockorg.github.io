@@ -3,13 +3,15 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkBreaks from 'remark-breaks';
 
-import {inviteUrl} from './src/common'
+const discordInviteUrl = 'https://discord.gg/eqnEu2jzxe';
 
 const config: Config = {
   title: 'Веселый носок',
   tagline: 'Наилучший сервер в Discord\'е!',
   favicon: 'img/favicon.ico',
-
+  customFields: {
+    discordInviteUrl: discordInviteUrl,
+  },
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -100,7 +102,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: inviteUrl,
+              href: discordInviteUrl,
             },
           ],
         },
