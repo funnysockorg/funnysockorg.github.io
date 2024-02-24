@@ -1,12 +1,7 @@
 {
-  "extends": "@tsconfig/svelte/tsconfig.json",
-
+  // This file is not used in compilation. It is here just for a nice editor experience.
+  "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "strict": true,
-    "module": "es2022",
-    "moduleResolution": "node"
-  },
-
-  "include": ["src/**/*"],
-  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+    "baseUrl": "."
+  }
 }
