@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Веселый носок Blog</title>
+        <link>https://your-docusaurus-site.example.com/blog</link>
+        <description>Веселый носок Blog</description>
+        <lastBuildDate>Sat, 24 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ru</language>
+        <item>
+            <title><![CDATA[Переезд на Docusaurus]]></title>
+            <link>https://your-docusaurus-site.example.com/blog/2024/02/24/migration-to-docusaurus</link>
+            <guid>https://your-docusaurus-site.example.com/blog/2024/02/24/migration-to-docusaurus</guid>
+            <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Решил перевезти проект на Docusaurus, потому что стильно, модно, молодежно! А если серьезно, то нужно начать писать документацию к серверу, чтобы те, кому небезразличен сервер, могли разобраться, что тут вообще происходит. Для этого лучше всего подходит Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>Решил перевезти проект на Docusaurus, потому что стильно, модно, молодежно! А если серьезно, то нужно начать писать документацию к серверу, чтобы те, кому небезразличен сервер, могли разобраться, что тут вообще происходит. Для этого лучше всего подходит Docusaurus.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="судьба-главной-страницы">Судьба главной страницы<a href="https://your-docusaurus-site.example.com/blog/2024/02/24/migration-to-docusaurus#%D1%81%D1%83%D0%B4%D1%8C%D0%B1%D0%B0-%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B" class="hash-link" aria-label="Прямая ссылка на Судьба главной страницы" title="Прямая ссылка на Судьба главной страницы">​</a></h2>
+<p>Предыдущую главную страницу перевезти пока не удалось, потому что писалась с нуля на Svelte со своими стилями, а в Docusaurus — свои особенности, поэтому неясно, куда тыкаться.</p>
+<p>Перевел пока на скорую руку как смог (см. скриншоты). Старый вариант, конечно же, кажется уютнее.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="скриншоты">Скриншоты<a href="https://your-docusaurus-site.example.com/blog/2024/02/24/migration-to-docusaurus#%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B" class="hash-link" aria-label="Прямая ссылка на Скриншоты" title="Прямая ссылка на Скриншоты">​</a></h3>
+<ul>
+<li>
+<p>Десктопный вид</p>
+<ul>
+<li>
+<p>до:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-desktop-827aada5f2af9dce637eeadf3ea0018c.png" width="1360" height="633" class="img_ev3q"></p>
+</li>
+<li>
+<p>после:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-desktop-0b506f1bd60220541e1ec07d476c5125.png" width="1344" height="641" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Мобильный вид (landing)</p>
+<ul>
+<li>
+<p>до:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-landing-b0a5eafccef4a895d9106a6631a96bb6.png" width="640" height="396" class="img_ev3q"></p>
+</li>
+<li>
+<p>после:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-landing-bf3bdea21d76f384cde83b25aaeb09ec.png" width="640" height="360" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Мобильный вид (portrait)</p>
+<ul>
+<li>
+<p>до:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-ec4dd136158f8a207ad8df50be65e39d.png" width="360" height="640" class="img_ev3q"></p>
+</li>
+<li>
+<p>после:<br>
+<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-c480b36a6eb18ab925e617c70216b290.png" width="360" height="983" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
