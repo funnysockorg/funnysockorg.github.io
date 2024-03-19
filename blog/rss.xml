@@ -25,11 +25,11 @@
 <ul>
 <li>
 <p>до:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-desktop-827aada5f2af9dce637eeadf3ea0018c.png" width="1360" height="633" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-desktop-827aada5f2af9dce637eeadf3ea0018c.png" width="1360" height="633" class="img_ev3q"></p>
 </li>
 <li>
 <p>после:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-desktop-0b506f1bd60220541e1ec07d476c5125.png" width="1344" height="641" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-desktop-0b506f1bd60220541e1ec07d476c5125.png" width="1344" height="641" class="img_ev3q"></p>
 </li>
 </ul>
 </li>
@@ -38,11 +38,11 @@
 <ul>
 <li>
 <p>до:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-landing-b0a5eafccef4a895d9106a6631a96bb6.png" width="640" height="396" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-landing-b0a5eafccef4a895d9106a6631a96bb6.png" width="640" height="396" class="img_ev3q"></p>
 </li>
 <li>
 <p>после:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-landing-bf3bdea21d76f384cde83b25aaeb09ec.png" width="640" height="360" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-landing-bf3bdea21d76f384cde83b25aaeb09ec.png" width="640" height="360" class="img_ev3q"></p>
 </li>
 </ul>
 </li>
@@ -51,11 +51,11 @@
 <ul>
 <li>
 <p>до:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-ec4dd136158f8a207ad8df50be65e39d.png" width="360" height="640" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/old-mobile-ec4dd136158f8a207ad8df50be65e39d.png" width="360" height="640" class="img_ev3q"></p>
 </li>
 <li>
 <p>после:<br>
-<img loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-c480b36a6eb18ab925e617c70216b290.png" width="360" height="983" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" src="https://your-docusaurus-site.example.com/assets/images/new-mobile-c480b36a6eb18ab925e617c70216b290.png" width="360" height="983" class="img_ev3q"></p>
 </li>
 </ul>
 </li>
