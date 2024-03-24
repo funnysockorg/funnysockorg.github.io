@@ -4,6 +4,9 @@
 
 * Древний ворчун и зануда
 
+* > Дедушка Агент
+  > — [Ledi Krovi](./ledi_krovi.md)
+
 * Пивная жирная свинота ![:pepeSexy:](https://cdn.discordapp.com/emojis/943614017631572000.webp?size=20&quality=lossless)
 
 * Любитель тыгыдыков
