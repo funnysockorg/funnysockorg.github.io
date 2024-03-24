@@ -157,3 +157,11 @@
   Это было точно в сказке
 
 * А теперь ты нежная, Королева снежная ![pepeSing](https://cdn.discordapp.com/emojis/927672970997014608.webp?size=20&quality=lossless)
+
+* Но у меня зима в сердце, на душе вьюга
+  Знаю я, что можем мы друг без друга ![pepeSing](https://cdn.discordapp.com/emojis/927672970997014608.webp?size=20&quality=lossless)
+
+* А у тебя губа не дура, и с ночи до утра в клубе,
+  Ты можешь встретить у бара пьяного меня,
+  Если дела у прокурора, у меня — прокуратура
+  Мне нужна перезагрузка, мне нужна она ![pepeSing](https://cdn.discordapp.com/emojis/927672970997014608.webp?size=20&quality=lossless)
