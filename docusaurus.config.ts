@@ -8,7 +8,7 @@ const discordInviteUrl = 'https://discord.gg/eqnEu2jzxe';
 const config: Config = {
   title: 'Веселый носок',
   tagline: 'Наилучший сервер в Discord\'е!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   customFields: {
     discordInviteUrl: discordInviteUrl,
   },
