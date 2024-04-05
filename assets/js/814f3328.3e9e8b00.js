@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfunnysockorg_github_io=self.webpackChunkfunnysockorg_github_io||[]).push([[535],{5641:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u041f\u0435\u0440\u0435\u0435\u0437\u0434 \u043d\u0430 Docusaurus","permalink":"/blog/2024/02/24/migration-to-docusaurus","unlisted":false}]}')}}]);

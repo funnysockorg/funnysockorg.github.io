@@ -2,11 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/blog</id>
     <title>Веселый носок Blog</title>
-    <updated>2024-02-24T00:00:00.000Z</updated>
+    <updated>2024-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
     <subtitle>Веселый носок Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Первый лапшевестник]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/2024/04/01/pervyj-lapshevestnik</id>
+        <link href="https://your-docusaurus-site.example.com/blog/2024/04/01/pervyj-lapshevestnik"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[* Лиса привела ChatGPT: заменит ли нейросеть живое общение?]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Лиса привела ChatGPT: заменит ли нейросеть живое общение?</li>
+<li>ChatGPT: ролевые игры, в которых ты забудешь...</li>
+<li>Лиса: этот запрос заставил нейросеть упасть!</li>
+<li>Кактусарианство: впусти в себя кактус! 🌵</li>
+<li>Агент: делай так, и орден почетного флудера будет твоим</li>
+<li>Восстание машин уже близко: у компьютера отросли...</li>
+<li>Крокодил: весна с короткими юбчонками</li>
+<li>Олег: скромность — не предел</li>
+<li>Вареник: <img decoding="async" loading="lazy" src="https://cdn.discordapp.com/emojis/1213650406563909733.webp?size=20&amp;quality=lossless" alt="tongue" class="img_ev3q"> в каждый чат!</li>
+<li>Возвращение ведьмы: возле батареи негодование</li>
+<li>Главного токсика признали добрым!</li>
+<li>Мужчины в ужасе: карающий ремень оказался не в тех руках</li>
+<li>Больше никаких шуток: веселый носок стал серьезным 😾</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="послесловие">Послесловие<a href="https://your-docusaurus-site.example.com/blog/2024/04/01/pervyj-lapshevestnik#%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5" class="hash-link" aria-label="Прямая ссылка на Послесловие" title="Прямая ссылка на Послесловие">​</a></h2>
+<p>Вот и вышел в носочном мире первый лапшевестник. Ребятам, кажется, зашло, так что стоит ввести на это моду. Хотя бы постараться вести его раз в неделю.</p>]]></content>
+        <author>
+            <name>Agent</name>
+            <uri>https://github.com/gretmn102</uri>
+        </author>
+        <category label="события" term="события"/>
+        <category label="лапшевестник" term="лапшевестник"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Первое апреля 2024]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/2024/04/01/pervoe-aprelya</id>
+        <link href="https://your-docusaurus-site.example.com/blog/2024/04/01/pervoe-aprelya"/>
+        <updated>2024-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Весёлый носок стал Серьёзным носком. Больше никаких шуток-прибауток и прочих хиханек-хаханек. Отныне беседы будут происходить только по делу. Шаг влево, шаг вправо — и вас ждет 😾]]></summary>
+        <content type="html"><![CDATA[<p>Весёлый носок стал Серьёзным носком. Больше никаких шуток-прибауток и прочих хиханек-хаханек. Отныне беседы будут происходить только по делу. Шаг влево, шаг вправо — и вас ждет 😾</p>
+<p>А чтобы подчеркнуть всю нашу серьезность, мы сменили аватарку сервера:</p>
+<p><img decoding="async" loading="lazy" alt="harsh-sock" src="https://your-docusaurus-site.example.com/assets/images/harsh-sock-794a08c99839716ebd5bef03260f7383.png" width="438" height="491" class="img_ev3q"><br>
+<em>Суровый носок, нарисованный в DALL·E 3</em></p>]]></content>
+        <author>
+            <name>Agent</name>
+            <uri>https://github.com/gretmn102</uri>
+        </author>
+        <category label="события" term="события"/>
+        <category label="1-е апреля" term="1-е апреля"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Переезд на Docusaurus]]></title>
         <id>https://your-docusaurus-site.example.com/blog/2024/02/24/migration-to-docusaurus</id>

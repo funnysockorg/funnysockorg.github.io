@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfunnysockorg_github_io=self.webpackChunkfunnysockorg_github_io||[]).push([[5771],{3897:s=>{s.exports=JSON.parse('{"label":"1-\u0435 \u0430\u043f\u0440\u0435\u043b\u044f","permalink":"/blog/tags/1-\u0435-\u0430\u043f\u0440\u0435\u043b\u044f","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
