@@ -76,6 +76,11 @@
 
 ## Галерея стрелок
 
-![аниме-аниме](https://cdn.discordapp.com/attachments/936649320021753867/1051077507367055431/Screenshot_20221210_140634.jpg?ex=66b5ea35&is=66b498b5&hm=92eb7fb3e77d893e431bf114c06566cf72ce28b9aa8977540763a1a8e65bb18e&)
-![сегодня](https://cdn.discordapp.com/attachments/929358528257351712/1129105655396048969/image.png?ex=66b5ac56&is=66b45ad6&hm=907374ce4c5453c308f393e14cd1308c4fe67be88667a51a8cef357c7f4c9876&)
-![18+](https://cdn.discordapp.com/attachments/936649320021753867/1123296954605117470/image.png?ex=66b5a28f&is=66b4510f&hm=918cd518dde1b5f98631001d7643e021e814fafc0a2ea2714968db72e0f39577&)
+* [![фазенда](./arrows/fazenda.jpg)](https://cdn.discordapp.com/channels/927554008263032832/927554008263032836/1267080408265396254)
+* [![борщ](./arrows/borsch.jpg)](https://cdn.discordapp.com/channels/927554008263032832/1251441523359223840/1252515368212369583)
+* [![не девешка, а парень](./arrows/sex-miss.jpg)](https://cdn.discordapp.com/channels/927554008263032832/936649320021753867/1217217028100849785)
+* [![dimon](./arrows/dimon.jpg)](https://cdn.discordapp.com/channels/927554008263032832/929358528257351712/1210210009623830579)
+* [![кошку за лапку поймали](./arrows/cat-catch.jpg)](https://cdn.discordapp.com/channels/927554008263032832/927554008263032836/1170103099038380072)
+* [![аниме-аниме](./arrows/anime.jpg)](https://discord.com/channels/927554008263032832/936649320021753867/1051077507367055431)
+* [![сегодня](./arrows/today.png)](https://cdn.discordapp.com/channels/927554008263032832/929358528257351712/1129105655396048969)
+* [![18+](./arrows/18plus.png)](https://cdn.discordapp.com/channels/927554008263032832/936649320021753867/1123296954605117470)
