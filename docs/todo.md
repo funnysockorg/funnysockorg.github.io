@@ -35,7 +35,6 @@
 * [arkan.md](./personalities/arkan.md)
 * [moffin.md](./personalities/moffin.md)
 * [panterka.md](./personalities/panterka.md)
-* [richard.md](./personalities/richard.md)
 
 ## Свалившие
 
